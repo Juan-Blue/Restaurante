@@ -1,0 +1,188 @@
+:root {
+  --primary-color: #fb5357;
+  --bg-home-color: #727272;
+  --bg-color: #222222;
+  --secondary-color: #81e14a;
+  --font-color: #fefefe;
+  --font-size: 28px;
+  --card-color: rgb(0,0,0,0.6);
+}
+
+
+body {
+  color: var(--font-color);
+  background-color: var(--bg-home-color);
+}
+
+.container-1 {
+  background: url(./../img/Backgrounds/Restaurante.jpg);
+  min-height: 820px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  backdrop-filter: blur(100px);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white; 
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.img-home {
+  min-width: 380px;
+  max-width: 600px;
+  width: 80%;
+  object-fit: cover;
+  transition: 2.3s;
+  filter: drop-shadow(0 0 10px var(--font-color));
+}
+
+.img-container {
+  min-height: 70vh;
+}
+
+.img-history{
+  min-width: 300px;
+  max-width: 600px;
+  width: 70%;
+  
+}
+
+
+.btn-outline-success {
+  outline-color: var(--secondary-color);
+}
+.btn-outline-success:hover {
+  background: var(--secondary-color);
+}
+.btn-outline-danger:hover {
+  background: var(--primary-color);
+}
+.container-btn {
+  gap: 20px;
+}
+
+h1{
+  font-size: 3.0em;
+}
+
+h2{
+  font-size:2.7em;
+}
+.font-header,.links, h1,h2,h3{
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+}
+
+.container-2 {
+  min-height: auto;
+  background: url(./../img/Backgrounds/Background-White.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container-3{
+  min-height: auto;
+  background: url(./../img/Backgrounds/Background-Red.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+
+}
+
+.card{
+  background-color: transparent;
+  border: none;
+  max-width: 80%;
+  display: block;
+  transition: all ease .3s;
+  
+}
+.card:hover{
+  transform: translateY(-7px);
+}
+.card-body-1{
+  background:var(--font-color);
+}
+
+.chefs{
+  min-height: 200px;
+  max-height: 500px;
+  width: 70%;
+  object-fit: contain;
+  
+
+}
+
+.container-4{
+  background: url(./../img/Backgrounds/Background-Chef.jpg);
+  min-height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+ul{
+  list-style: none;
+}
+
+.card-body-2 {
+  background: var(--card-color);
+}
+.img-footer{
+  min-height: 50px;
+  max-height: 120px;
+}
+
+.container-5{
+  min-height: auto;
+  background: url(./../img/Backgrounds/Background-Gray.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+
+}
+
+.container-6{
+  min-height: auto;
+  background: url();
+}
+.footer{
+  background: var(--bg-color);
+}
+@media (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+  .container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .img-container {
+    min-height: 50vh;
+  }
+}
+
