@@ -15,7 +15,7 @@ body {
 }
 
 .container-1 {
-  background: url(./../img/Backgrounds/Restaurante.jpg);
+  background: url(./../img/Backgrounds/Restaurante.webp);
   min-height: 820px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ h2{
 
 .container-2 {
   min-height: auto;
-  background: url(./../img/Backgrounds/Background-White.png);
+  background: url(./../img/Backgrounds/Background-White.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -101,7 +101,7 @@ h2{
 
 .container-3{
   min-height: auto;
-  background: url(./../img/Backgrounds/Background-Red.png);
+  background: url(./../img/Backgrounds/Background-Red.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -134,7 +134,7 @@ h2{
 }
 
 .container-4{
-  background: url(./../img/Backgrounds/Background-Chef.jpg);
+  background: url(./../img/Backgrounds/Background-Chef.webp);
   min-height: auto;
   background-size: cover;
   background-repeat: no-repeat;
@@ -155,7 +155,7 @@ ul{
 
 .container-5{
   min-height: auto;
-  background: url(./../img/Backgrounds/Background-Gray.png);
+  background: url(./../img/Backgrounds/Background-Gray.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
