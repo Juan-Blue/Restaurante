@@ -186,3 +186,51 @@ ul{
   }
 }
 
+/* ========== SECCION DE CONTACTO ========= */
+
+
+
+.section-contact{
+  min-height: 400px;
+  font-size:x-large;
+}
+
+.container-title-contact{
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.section-form{
+  min-height: 500px;
+  background: url(./../img/Backgrounds/Background-Red.webp);
+  align-content: center;
+}
+.container-form{
+height: 50%;
+width: auto;
+
+
+
+}
+.container-form .input-group{
+  padding: 10px;
+  font-family: inherit;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  transition: all 1s ease ;
+  outline: none;
+
+}
+
+
+
+.container-form .input-group:focus,.container-form .input-group:hover{
+  background-color: var(--secondary-color);
+}
+
+
