@@ -21,6 +21,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   backdrop-filter: blur(100px);
+  background-attachment: fixed;
 }
 
 .navbar-brand {
@@ -202,12 +203,15 @@ ul{
   align-items: center;
   
   
+  
 }
 
 .section-form{
   min-height: 500px;
   background: url(./../img/Backgrounds/Background-Red.webp);
   align-content: center;
+  
+  
 }
 .container-form{
 height: 50%;
@@ -216,7 +220,7 @@ width: auto;
 
 
 }
-.container-form .input-group{
+.input-group{
   padding: 10px;
   font-family: inherit;
   margin: 5px;
@@ -224,12 +228,27 @@ width: auto;
   border: none;
   transition: all 1s ease ;
   outline: none;
+  width: 90%;
 
 }
 
+.input-btn{
+  width: 30%;
+  margin-left: 5%;
+}
+.container-textarea{
+  align-content: center;
+}
+.container-textarea #textarea{
+  resize: none;
+  min-height: 200px;
+  max-height: 600px;
+  overflow:auto;
 
+  
+}
 
-.container-form .input-group:focus,.container-form .input-group:hover{
+ .input-group:focus, .input-group:hover{
   background-color: var(--secondary-color);
 }
 
